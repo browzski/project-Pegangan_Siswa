@@ -1,0 +1,80 @@
+.pagination > li > a,
+.pagination > li > span {
+    color: red; // use your own color here
+}
+.page-link:hover {
+  color: red;
+}
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #fb404b;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: red;
+    border-color: red;
+  }
+#option option{
+  color: #000000;
+}
+.lite-editor,
+.lite-editor-source {
+    color: #000;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 1em;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.t50{
+  font-size: 50px;
+}
+.icon-white {
+    webkit-filter: contrast(4) invert(1);
+    -moz-filter: contrast(4) invert(1);
+    -o-filter: contrast(4) invert(1);
+    -ms-filter: contrast(4) invert(1);
+    filter: contrast(4) invert(1);
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #DF7074;
+  border-left: 1px solid #B02225;
+}
+::-webkit-scrollbar {
+
+  width: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #0000; 
+}
+
+::-webkit-scrollbar-thumb {
+
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #B02225; 
+}
